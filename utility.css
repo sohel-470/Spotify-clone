@@ -1,0 +1,68 @@
+/*Utility class is used so that its contents can be accessed anywhere
+*/
+
+/* For modern browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1e1e1e; /* Dark track */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #444; /* Thumb color */
+    border-radius: 10px;
+    border: 2px solid #1e1e1e; /* Creates padding around thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #666; /* On hover */
+}
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #444 #1e1e1e; /* thumb color, track color */
+}
+
+
+
+
+
+
+.flex{
+    display: flex;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.invert {
+    filter: invert(1)
+}
+
+.bg-grey {
+    background-color: #121212;
+    /* #121212 */
+}
+
+.bg-greyish-green{
+    background-color: #0B1511;
+
+;
+}
+
+.m1 {
+    margin: 8px;
+}
+
+.p1 {
+    padding: 5px;
+}

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body style="background-color: black;">
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="close">
+                <img src="Assets/close.svg" alt="">
+            </div>
+            <div class="home bg-greyish-green rounded">
+                <img class="invert" src="logo.svg" alt="" style="width: 40px;">
+                <ul>
+                    <li><img class="invert" src="Assets/home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="Assets/search.svg" alt="home" style="padding-bottom: 5px;">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-greyish-green rounded">
+                <div class="heading">
+                    <img class="invert" src="Assets/playlist.svg" alt="">
+                    <div class="h2">Your Playlist</div>
+                </div>
+                <div class="songlist">
+                    <ul>
+
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/safetyandprivacy/"><span>Safety & Privacy
+                                Center</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="right bg-greyish-green rounded">
+            <div class="header">
+                <div class="nav" >
+                    <img class="hamburger" src="Assets/hamburger.svg" alt="">
+                    <div class="move">
+                        <svg style="cursor: pointer;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+                            height="24" color="#ffffff" fill="none">
+                            <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                        <svg style="cursor: pointer;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+                            height="24" color="#ffffff" fill="none">
+                            <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn">Sign up</button>
+                    <button class="loginbtn">Log in</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylists">
+                <h1 class="h1">Spotify Playlists</h1>
+                <div class="cardContainer flex">
+                    <div data-folder="Alan Walker" class="card">
+                        <div class="play-overlay">
+                            <svg class="greenplay" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" role="img"
+                                aria-hidden="true">
+                                <circle cx="24" cy="24" r="24" fill="#1DB954" />
+                                <g transform="translate(12, 9) scale(1.25)">
+                                    <path
+                                        d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606"
+                                        fill="#000000" />
+                                </g>
+                            </svg>
+                        </div>
+
+                        <img class="rounded" src="songs/Alan Walker/Alan Walker.jpg" alt="Alan Walker">
+                        <h2>Alan Walker</h2>
+                        <p>By Spotify</p>
+                    </div>
+                    <div data-folder="Justin Bieber" class="card">
+                        <div class="play-overlay">
+                            <svg class="greenplay" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" role="img"
+                                aria-hidden="true">
+                                <circle cx="24" cy="24" r="24" fill="#1DB954" />
+                                <g transform="translate(12, 9) scale(1.25)">
+                                    <path
+                                        d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606"
+                                        fill="#000000" />
+                                </g>
+                            </svg>
+                        </div>
+                        <img class="rounded" src="songs/Justin Bieber/Justin Bieber.jpg" alt="Justin Bieber">
+                        <h2>Justin Bieber</h2>
+                        <p>By Spotify</p>
+                    </div>
+                    <div data-folder="Yo Yo Honey Singh" class="card">
+                        <div class="play-overlay">
+                            <svg class="greenplay" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" role="img"
+                                aria-hidden="true">
+                                <circle cx="24" cy="24" r="24" fill="#1DB954" />
+                                <g transform="translate(12, 9) scale(1.25)">
+                                    <path
+                                        d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606"
+                                        fill="#000000" />
+                                </g>
+                            </svg>
+                        </div>
+                        <img class="rounded" src="songs/Yo Yo Honey Singh/Yo Yo Honey Singh.jpg" alt="Honey Singh">
+                        <h2>Yo Yo Honey Singh</h2>
+                        <p>By Spotify</p>
+                    </div>
+                    <div data-folder="Jubin Nautiyal" class="card">
+                        <div class="play-overlay">
+                            <svg class="greenplay" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" role="img"
+                                aria-hidden="true">
+                                <circle cx="24" cy="24" r="24" fill="#1DB954" />
+                                <g transform="translate(12, 9) scale(1.25)">
+                                    <path
+                                        d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606"
+                                        fill="#000000" />
+                                </g>
+                            </svg>
+                        </div>
+                        <img class="rounded" src="songs/Jubin Nautiyal/Jubin Nautiyal.jpg" alt="Jubin Nautiyal">
+                        <h2>Jubin Nautiyal</h2>
+                        <p>By Spotify</p>
+                    </div>
+                    <div data-folder="Armaan Malik" class="card">
+                        <div class="play-overlay">
+                            <svg class="greenplay" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" role="img"
+                                aria-hidden="true">
+                                <circle cx="24" cy="24" r="24" fill="#1DB954" />
+                                <g transform="translate(12, 9) scale(1.25)">
+                                    <path
+                                        d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606"
+                                        fill="#000000" />
+                                </g>
+                            </svg>
+                        </div>
+                        <img class="rounded" src="songs/Armaan Malik/Armaan Malik.jpg" alt="Armaan Malik">
+                        <h2>Armaan Malik</h2>
+                        <p>By Spotify</p>
+                    </div>
+                    <div data-folder="KK" class="card">
+                        <div class="play-overlay">
+                            <svg class="greenplay" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" role="img"
+                                aria-hidden="true">
+                                <circle cx="24" cy="24" r="24" fill="#1DB954" />
+                                <g transform="translate(12, 9) scale(1.25)">
+                                    <path
+                                        d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606"
+                                        fill="#000000" />
+                                </g>
+                            </svg>
+                        </div>
+                        <img class="rounded" src="songs/KK/KK.jpg" alt="KK">
+                        <h2>KK</h2>
+                        <p>By Spotify</p>
+                    </div>
+                    <div data-folder="Kumar Sanu" class="card">
+                        <div class="play-overlay">
+                            <svg class="greenplay" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" role="img"
+                                aria-hidden="true">
+                                <circle cx="24" cy="24" r="24" fill="#1DB954" />
+                                <g transform="translate(12, 9) scale(1.25)">
+                                    <path
+                                        d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606"
+                                        fill="#000000" />
+                                </g>
+                            </svg>
+                        </div>
+                        <img class="rounded" src="songs/Kumar Sanu/Kumar Sanu.jpg" alt="Yeh dil aashiqana">
+                        <h2>Kumar Sanu</h2>
+                        <p>By Spotify</p>
+                    </div>
+                    
+
+                    <div class="playbar">
+                        <div class="seekbar">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="infobar">
+                            <div class="songinfo">
+                                <div class="songname">Tu Jo Mila</div>
+                                <div class="songartist">KK</div>
+                            </div>
+                            <div class="songbuttons">
+                                <img id="previous" style="cursor: pointer;" src="Assets/previous.svg" alt="">
+                                <img id="play" style="cursor: pointer;" src="Assets/play.svg" alt="">
+                                <img id="next" style="cursor: pointer;" src="Assets/next.svg" alt="">
+                            </div>
+                            <div class="timevol">
+                                <div class="songtime"></div>
+                                <div class="volume">
+                                    <img id="vol" src="Assets/volume.svg" alt="">
+                                    <div class="range">
+                                        <input type="range" name="volume" id="">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
