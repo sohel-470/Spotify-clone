@@ -33,6 +33,7 @@ spotify-clone/
 ├── utility.css      # Utility classes and scrollbar styling
 ├── script.js        # Main game logic and audio handling
 └── README.md        # Project documentation
+```
 
 ## 📸 Screenshots
 
