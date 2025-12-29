@@ -33,3 +33,24 @@ spotify-clone/
 ├── utility.css      # Utility classes and scrollbar styling
 ├── script.js        # Main game logic and audio handling
 └── README.md        # Project documentation
+
+## 📸 Screenshots
+
+### Desktop View
+![Desktop Interface](screenshots/Desktopscrn.png)
+
+### Mobile View
+![Mobile Menu](screenshots/Mobilescrn.png)
+
+## 🔮 Future Enhancements
+
+* [ ] **Search Functionality:** Filter songs by name or artist in real-time.
+* [ ] **Keyboard Shortcuts:** Enable Spacebar to play/pause and Arrow keys to skip.
+* [ ] **Song Duration Preview:** Display total duration on the card before playing.
+* [ ] **Shuffle Mode:** Randomize the playlist order.
+
+## 📄 License & Disclaimer
+
+**This project is for educational purposes only.**
+
+All music tracks, images, and logos used in this project are the property of their respective owners. No copyright infringement is intended. If you are a copyright holder and wish for any content to be removed, please contact the developer, and it will be removed immediately.
